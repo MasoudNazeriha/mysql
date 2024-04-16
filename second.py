@@ -5,7 +5,7 @@ import pandas as pd
 # Connect to MySQL database
 try:
     connection = mysql.connector.connect(
-        host="127.0.0.1",
+        host="localhost",
         port="3306",
         user="root",  # Replace with your MySQL username
         password="",  # Replace with your MySQL password
