@@ -7,8 +7,8 @@ try:
     connection = mysql.connector.connect(
         host="DESKTOP-H0C75R6",
         port="3306",
-        user="root",  # Replace with your MySQL username
-        password="1234",  # Replace with your MySQL password
+        user="masoud",  # Replace with your MySQL username
+        password="12345",  # Replace with your MySQL password
         database="reilseir"  # Replace with your database name
     )
     cursor = connection.cursor()
