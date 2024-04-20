@@ -5,16 +5,15 @@ import pandas as pd
 # Connect to MySQL database
 try:
     connection = mysql.connector.connect(
-        host="DESKTOP-H0C75R6",
-        port="3306",
-        user="masoud",  # Replace with your MySQL username
-        password="12345",  # Replace with your MySQL password
-        database="reilseir"  # Replace with your database name
+        user='sql11700612', 
+        password='N3zhpp8zXn',
+        host='sql11.freemysqlhosting.net',
+        database='sql11700612'
     )
     cursor = connection.cursor()
 
     # Execute SQL query
-    cursor.execute("SELECT * FROM karami")  # Replace with your table name
+    cursor.execute("SELECT * FROM new_table")  # Replace with your table name
 
     # Fetch data
     data = cursor.fetchall()
