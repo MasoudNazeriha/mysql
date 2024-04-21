@@ -13,7 +13,7 @@ try:
     cursor = connection.cursor()
 
     # Execute SQL query
-    cursor.execute("SELECT * FROM new_table")  # Replace with your table name
+    cursor.execute("SELECT * FROM karamicsv")  # Replace with your table name
 
     # Fetch data
     data = cursor.fetchall()
