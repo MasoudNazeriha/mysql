@@ -5,10 +5,10 @@ import pandas as pd
 # Connect to MySQL database
 try:
     connection = mysql.connector.connect(
-        user='sql11700612', 
-        password='N3zhpp8zXn',
-        host='sql11.freemysqlhosting.net',
-        database='sql11700612'
+        user='sql6700715', 
+        password='ByngC6sUX9',
+        host='sql6.freemysqlhosting.net',
+        database='sql6700715'
     )
     cursor = connection.cursor()
 
